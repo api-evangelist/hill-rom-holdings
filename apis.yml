@@ -1,0 +1,161 @@
+aid: hill-rom-holdings
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/hill-rom-holdings/refs/heads/main/apis.yml
+name: Hill-Rom Holdings
+type: Index
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Healthcare
+  - Medical Devices
+  - Hospital Beds
+  - Patient Monitoring
+  - Vital Signs
+  - Connected Care
+  - Cardiac Diagnostics
+description: >-
+  Hill-Rom Holdings was a global medical technology company best known for its hospital
+  beds, patient support systems, Welch Allyn vital signs monitors, and Bardy Diagnostics
+  cardiac monitoring devices. Hill-Rom was acquired by Baxter International (NYSE: BAX)
+  in December 2021 for $12.4 billion and now operates as Baxter's Hillrom and Front
+  Line Care segment, continuing to deliver connected care, smart beds, vital signs
+  monitoring, and clinical workflow solutions to hospitals and health systems worldwide.
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: hill-rom-holdings:hill-rom-smart-beds
+    name: Hill-Rom Smart Beds and Patient Support
+    tags:
+      - Hospital Beds
+      - Patient Support
+      - Connected Devices
+      - Pressure Injury Prevention
+    humanURL: https://www.hillrom.com
+    properties:
+      - url: https://www.hillrom.com
+        type: Documentation
+    description: >-
+      Smart hospital beds, ICU beds, med-surg beds, and patient support systems
+      including Centrella, Progressa, and VersaCare platforms. Integrates with hospital
+      IT systems for fall risk monitoring, pressure injury prevention, mobility
+      tracking, and clinical workflow optimization. Now part of Baxter's Hillrom and
+      Front Line Care segment.
+
+  - aid: hill-rom-holdings:welch-allyn-vital-signs
+    name: Welch Allyn Vital Signs and Diagnostic Devices
+    tags:
+      - Vital Signs
+      - Diagnostic Devices
+      - Connex
+      - Spot Vital Signs
+      - EMR Integration
+    humanURL: https://www.hillrom.com/en/products/welch-allyn
+    properties:
+      - url: https://www.hillrom.com/en/products/welch-allyn
+        type: Documentation
+    description: >-
+      Welch Allyn vital signs monitors, otoscopes, ophthalmoscopes, ECG devices, and
+      diagnostic instruments used across primary care, hospitals, and clinics. Connex
+      Spot and Connex Vital Signs Monitors connect to EMRs to deliver automated vital
+      signs documentation at the point of care.
+
+  - aid: hill-rom-holdings:bardy-diagnostics-cardiac
+    name: Bardy Diagnostics Cardiac Monitoring
+    tags:
+      - Cardiac Monitoring
+      - Ambulatory ECG
+      - Arrhythmia Detection
+      - Wearable Patch
+    humanURL: https://www.hillrom.com
+    properties:
+      - url: https://www.hillrom.com
+        type: Documentation
+    description: >-
+      Bardy Diagnostics CAM (Carnation Ambulatory Monitor) patch-based ambulatory
+      cardiac monitoring solution for arrhythmia detection, acquired by Hill-Rom in
+      2021 prior to Baxter's acquisition of Hill-Rom. Provides P-wave-centric ECG data
+      with cloud-based analytics for cardiologists and clinicians.
+
+  - aid: hill-rom-holdings:hillrom-connected-care
+    name: Hillrom Connected Care and Clinical Workflow
+    tags:
+      - Connected Care
+      - Clinical Workflow
+      - Nurse Call
+      - Patient Engagement
+      - Voalte
+    humanURL: https://www.hillrom.com
+    properties:
+      - url: https://www.hillrom.com
+        type: Documentation
+    description: >-
+      Hillrom connected care platforms including Voalte clinical communication, nurse
+      call systems, patient engagement, real-time location services, and clinical
+      workflow tools that integrate with hospital EMRs and communication infrastructure.
+
+common:
+  - type: Website
+    url: https://www.hillrom.com
+  - type: Parent
+    url: https://www.baxter.com
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/hillrom
+  - type: Features
+    data:
+      - name: Acquired by Baxter International
+        description: >-
+          Hill-Rom Holdings was acquired by Baxter International (NYSE: BAX) in
+          December 2021 in a $12.4 billion all-cash transaction and now operates as
+          Baxter's Hillrom and Front Line Care segment.
+      - name: Smart Hospital Beds
+        description: >-
+          Connected ICU, med-surg, and birthing beds with integrated patient monitoring,
+          fall prevention, pressure injury prevention, and EMR connectivity.
+      - name: Welch Allyn Diagnostic Portfolio
+        description: >-
+          Vital signs monitors, physical exam instruments, ECG devices, and connected
+          diagnostic equipment used across hospitals, clinics, and primary care.
+      - name: Cardiac Diagnostics
+        description: >-
+          Bardy Diagnostics CAM patch-based ambulatory cardiac monitoring with cloud
+          analytics for arrhythmia detection.
+      - name: Connected Care and Workflow
+        description: >-
+          Voalte clinical communication, nurse call, patient engagement, and clinical
+          workflow platforms integrated with hospital EMR and IT systems.
+  - type: UseCases
+    data:
+      - name: Acute Care Hospital Beds
+        description: >-
+          Smart beds for ICU, med-surg, and progressive care environments with
+          integrated monitoring and mobility analytics.
+      - name: Vital Signs Documentation
+        description: >-
+          Automated capture and EMR posting of vital signs from Welch Allyn Connex
+          devices at the bedside.
+      - name: Ambulatory Cardiac Monitoring
+        description: >-
+          Long-duration patch-based ECG monitoring for arrhythmia diagnosis using the
+          Bardy CAM device.
+      - name: Clinical Communication
+        description: >-
+          Secure mobile messaging, alarm routing, and care team coordination via
+          Voalte across hospital care settings.
+  - type: Integrations
+    data:
+      - name: Baxter International (Parent)
+        description: >-
+          Operates as Baxter's Hillrom and Front Line Care segment following the
+          December 2021 acquisition.
+      - name: Hospital EMR Systems
+        description: >-
+          Welch Allyn Connex devices, Hillrom smart beds, and Voalte communication
+          platforms integrate with Epic, Cerner, Meditech, and other hospital EMRs.
+      - name: Baxter DeviceBridge
+        description: >-
+          Hillrom and Welch Allyn devices participate in Baxter's broader connected
+          device strategy alongside the DeviceBridge platform.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
