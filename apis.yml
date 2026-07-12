@@ -95,6 +95,8 @@ apis:
       workflow tools that integrate with hospital EMRs and communication infrastructure.
 
 common:
+  - type: DomainSecurity
+    url: security/hill-rom-holdings-domain-security.yml
   - type: Website
     url: https://www.hillrom.com
   - type: Parent
