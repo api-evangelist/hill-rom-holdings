@@ -33,7 +33,7 @@ description: >-
   monitoring, and clinical workflow solutions to hospitals and health systems worldwide.
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: hill-rom-holdings:hill-rom-smart-beds
     name: Hill-Rom Smart Beds and Patient Support
